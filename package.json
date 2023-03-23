@@ -1,0 +1,31 @@
+{
+  "name": "submission",
+  "version": "1.0.0",
+  "description": "Project or submission for graduate basic backend with js by Muhammad Nizar a.k.a Sukoshi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "start-dev": "nodemon src/server.js",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nizares/submission.git"
+  },
+  "author": "Nizares a.k.a Sukoshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nizares/submission/issues"
+  },
+  "homepage": "https://github.com/Nizares/submission#readme",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.0",
+    "nanoid": "^4.0.1",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
